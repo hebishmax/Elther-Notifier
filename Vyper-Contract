@@ -1,0 +1,13 @@
+# SPDX-License-Identifier: MIT
+# pragma version ^0.3.0
+
+status: public(string)
+
+@external
+@payable
+def update_status(new_status: string):
+    self.status = new_status
+
+@external
+def get_status() -> string:
+    return self.status
