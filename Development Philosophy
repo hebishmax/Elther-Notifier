@@ -1,0 +1,15 @@
+## Development Philosophy
+
+Ether Notifier is built entirely with hand-written code and avoids the use of no-code or low-code platforms. This approach ensures:
+
+- Full control over the logic and behavior of every component.
+- Complete transparency and auditability for developers and reviewers.
+- High extensibility across both Web2 and Web3 layers.
+- Alignment with open-source values and long-term maintainability.
+
+The system is developed using:
+- Vyper for secure and minimalistic smart contracts.
+- Python-based CLI for fast and direct developer interaction.
+- FastAPI for scalable and modern HTTP interfaces (optional).
+
+This architecture reflects a conscious commitment to technical clarity and gives developers the freedom to build, adapt, and contribute meaningfully.
