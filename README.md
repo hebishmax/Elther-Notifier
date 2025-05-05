@@ -6,8 +6,8 @@ Ether Notifier is an open-source application that helps Web3 developers know whe
 - Binds the results to a smart contract written in Vyper on the Ethereum network.
 - Simple CLI interface that allows direct verification or update.
 - 100% free and open source.
-- **FastAPI** backend for creating a fast and scalable web API interface to check the network status and interact with the service.
-  
+- **FastAPI** backend for creating a fast and scalable web API interface to check the network status and interact with the service. This provides an **optional graphical interface** for developers who prefer HTTP-based interaction.
+
 ## Requirements
 - Python 3.7 or higher
 - `web3.py` library
@@ -34,7 +34,7 @@ Ether Notifier is an open-source application that helps Web3 developers know whe
     - Ensure your contract address and ABI are correctly specified in the project.
 
 ## FastAPI Setup
-Ether Notifier now includes a **FastAPI** backend that allows developers to interact with the service via HTTP requests. This provides a scalable and easy way to access network status and interact with smart contracts.
+Ether Notifier now includes a **FastAPI** backend that allows developers to interact with the service via HTTP requests. This provides a **scalable and easy way** to access network status and interact with smart contracts, but it remains **optional**. Developers who prefer working via the command line can continue using the **CLI** interface.
 
 ### Running FastAPI
 You can start the FastAPI server using the following command:
